@@ -8,7 +8,7 @@ def test_setup():
 
 def test_form_entry():
 
-    driver.find_element_by_name("nip").send_keys("12345")
+    driver.find_element_by_name("nip").send_keys("123456789")
     driver.find_element_by_name("nama").send_keys("Jon jon")
     driver.find_element_by_name("nik").send_keys("9999999999")
     driver.find_element_by_name("alamat").send_keys("Tangerang")
